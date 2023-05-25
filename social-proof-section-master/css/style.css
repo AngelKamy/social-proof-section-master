@@ -83,6 +83,14 @@
   }
 
   /* ----------Cards----------- */
+  .cardscontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
   .cards {
     background: var(--Very-Dark-Magenta);
     border-radius: 10px;
@@ -94,14 +102,6 @@
     font-size: 12px;
     display: grid;
     grid-template-columns: 1fr 10fr;
-  }
-
-  .cardscontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 50px;
   }
 
   .cards img {
@@ -136,6 +136,7 @@
   }
 
   .attribution a {
+    
     color: hsl(228, 45%, 44%);
   }
 
